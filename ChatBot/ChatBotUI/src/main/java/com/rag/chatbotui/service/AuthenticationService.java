@@ -12,7 +12,7 @@ import org.springframework.stereotype.Service;
 
 @Service
 public class AuthenticationService {
-    private final String BASE_URL = "http://localhost:8083/api/auth";
+    private final String BASE_URL = "http://localhost:9090/api/auth";
     private final RestTemplate restTemplate;
 
     public AuthenticationService() {
